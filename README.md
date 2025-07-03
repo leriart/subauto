@@ -36,7 +36,7 @@ FFmpeg (https://ffmpeg.org/download.html) (requerido para procesar audio)
 
 📦 Instalación de dependencias (via pip)
 
-    pip install vosk pydub soundfile numpy matplotlib ttkbootstrap
+    pip install -r requirements.txt
 
 🌍 Modelos de lenguaje (se descargan automáticamente)
 

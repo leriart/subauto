@@ -1,0 +1,6 @@
+vosk
+pydub
+soundfile
+numpy
+matplotlib
+ttkbootstrap
