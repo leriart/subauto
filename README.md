@@ -1,77 +1,70 @@
-Descripción
+Crea subtítulos precisos para tus videos y canciones usando inteligencia artificial que funciona totalmente en tu computadora, sin depender de servicios en la nube.
+🔥 Características principales
 
-Este programa es una herramienta completa para generar subtítulos sincronizados a partir de archivos de audio o video, utilizando modelos de inteligencia artificial que se ejecutan localmente en tu computadora. Ofrece dos modos principales de funcionamiento:
+✅ Transcripción automática
 
-    Transcripción Automática: Convierte el habla en texto y genera subtítulos automáticamente.
+    Convierte voz a texto con modelos de reconocimiento de voz avanzados (Vosk).
 
-    Alineamiento Forzado: Sincroniza un texto proporcionado (como la letra de una canción o un guión) con el audio correspondiente.
+✅ Alineamiento forzado
 
-Características Principales
+    Sincroniza letras de canciones o guiones con el audio automáticamente.
 
-    Procesamiento local: No requiere conexión a internet después de descargar los modelos.
+✅ Multilenguaje
 
-    Multilenguaje: Soporta varios idiomas incluyendo español, inglés, francés, alemán y más.
+    Soporta español, inglés, francés, alemán, italiano, portugués, chino y ruso.
 
-    Modelos ajustables: Permite elegir entre modelos pequeños (rápidos) y grandes (precisos).
+✅ Interfaz gráfica fácil de usar
 
-    Interfaz gráfica intuitiva: Con pestañas para procesamiento, edición y previsualización.
+    Visualización de la onda de audio con los subtítulos superpuestos.
 
-    Visualización de onda: Muestra la forma de onda del audio con los subtítulos superpuestos.
+    Editor integrado para ajustar tiempos y texto.
 
-    Edición avanzada: Permite ajustar manualmente los tiempos y texto de los subtítulos.
+✅ Exporta en formato SRT
 
-    Exportación a SRT: Genera archivos en formato SRT estándar para usar con reproductores de video.
+    Compatible con YouTube, VLC, Premiere y otros reproductores.
 
-Requisitos del Sistema
+✅ Procesamiento local y privado
 
-    Python 3.7 o superior
+    Tus archivos no se suben a Internet, todo se procesa en tu PC.
 
-    FFmpeg instalado y accesible en el PATH
+📥 Requisitos
+📌 Software necesario
 
-    Espacio en disco para los modelos de lenguaje (200MB-2GB dependiendo del idioma)
+    Python 3.7+ (https://www.python.org/downloads/)
 
-    Recomendado: Tarjeta gráfica con soporte CUDA para mejor rendimiento
+    FFmpeg (https://ffmpeg.org/download.html) (requerido para procesar audio)
 
-Idiomas Soportados
+📦 Instalación de dependencias (via pip)
+bash
 
-El programa incluye modelos preconfigurados para:
+pip install vosk pydub soundfile numpy matplotlib ttkbootstrap
 
-    Español
+🌍 Modelos de lenguaje (se descargan automáticamente)
 
-    Inglés (EEUU)
+    Español, Inglés, Francés, Alemán, Italiano, Portugués, Chino y Ruso.
 
-    Francés
+    Tamaños disponibles: pequeño (rápido) y grande (preciso).
 
-    Alemán
+🚀 ¿Para qué sirve?
 
-    Italiano
+✔ Creadores de contenido: Subtitula tus videos para YouTube, TikTok o redes sociales.
+✔ Músicos: Sincroniza letras de canciones con el audio para karaoke o visualizaciones.
+✔ Podcasters: Genera transcripciones automáticas con marcas de tiempo.
+✔ Editores de video: Prepara subtítulos profesionales sin servicios externos.
+🔧 ¿Cómo funciona?
 
-    Portugués
+    Selecciona un archivo de audio o video.
 
-    Chino
+    Elige entre transcripción automática o alineamiento forzado (si ya tienes el texto).
 
-    Ruso
+    Ajusta los subtítulos en el editor integrado.
 
-Casos de Uso
+    Exporta en formato SRT o edita manualmente.
 
-    Crear subtítulos para videos personales o profesionales
+⚡ Ventajas frente a herramientas online
 
-    Sincronizar letras de canciones con archivos de audio
+🔒 Privacidad total: Tus archivos nunca salen de tu computadora.
+💾 Sin límites: Puedes procesar audios largos sin restricciones.
+🔄 Control completo: Ajusta cada detalle de los subtítulos.
 
-    Generar transcripciones sincronizadas de podcasts o conferencias
-
-    Preparar subtítulos para plataformas como YouTube o Vimeo
-
-    Trabajar con material audiovisual sin depender de servicios en la nube
-
-Ventajas
-
-    Privacidad: Todo el procesamiento se hace localmente, tus archivos no se suben a internet.
-
-    Control completo: Puedes ajustar manualmente todos los aspectos de los subtítulos.
-
-    Sin costos recurrentes: No hay suscripciones ni límites de uso después de la instalación.
-
-    Personalizable: Ajusta la sensibilidad y parámetros de generación según tus necesidades.
-
-El programa es ideal para creadores de contenido, músicos, productores audiovisuales y cualquier persona que necesite trabajar con subtítulos de forma profesional o personal.
+📌 Nota: Para mejor rendimiento, se recomienda una PC con al menos 4GB de RAM y una GPU compatible con CUDA (opcional para aceleración).
